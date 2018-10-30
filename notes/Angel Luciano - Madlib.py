@@ -1,5 +1,5 @@
 noun = input("Give a noun")
 verb = input("Give a verb")
-noun = input("give a noun")
-adjective = input("give a adjective")
+noun2 = input("Give a noun")
+adjective = input("Give a adjective")
 
