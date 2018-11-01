@@ -121,11 +121,11 @@ if sunny:
 
 
 def grade_calc(percentage):
-    if percentage >= 9():
+    if percentage >= 90():
         return "A"
     elif percentage >= 80:
         return "B"
-    elif percentage >= 70:
+    elif percentage >=  70:
         return "C"
     elif percentage >= 60:
         return "D"
@@ -137,4 +137,15 @@ your_grade = grade_calc(82)
 print(your_grade)
 
 #  Random numbers
-import random  # this should ne on line 1
+import random  # this should be on line 1
+print(random.radiant(0, 100))
+
+# Equality statements
+print(5 > 3)
+print(5 >= 3)
+print(3 == 3)
+print(3 != 4)
+"""
+a = 3 # A is set to 3
+a = 3 # is A equal to 3?
+"""
