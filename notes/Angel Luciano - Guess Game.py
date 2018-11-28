@@ -20,8 +20,5 @@ while guessesTaken < 5:
         print("Your number is high.")
 
     if guess == number:
-        playing = False
         print("Good job you guessed the right number")
-
-    if guess != number:
-        print("You Lost")
+        playing = False
