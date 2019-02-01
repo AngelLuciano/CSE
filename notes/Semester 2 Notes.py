@@ -1,3 +1,4 @@
+import string
 print("Hello world")
 # hi#
 cars = 5
@@ -13,3 +14,8 @@ color_list.pop(0)
 print(color_list)
 print(color_list[1])
 print(len(color_list))
+print(list(string.ascii_letters))
+print(string.digits)
+print(string.punctuation)
+print(string.printable)
+
