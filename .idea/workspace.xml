@@ -9,9 +9,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/CSE$Angel_Luciano___Dictionary_World_Map.coverage" NAME="Angel Luciano - Dictionary World Map Coverage Results" MODIFIED="1550614515833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
     <SUITE FILE_PATH="coverage/CSE$World_map_oop.coverage" NAME="World map oop Coverage Results" MODIFIED="1551305534371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
+    <SUITE FILE_PATH="coverage/CSE$Angel_Luciano___Dictionary_World_Map.coverage" NAME="Angel Luciano - Dictionary World Map Coverage Results" MODIFIED="1554930173092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
     <SUITE FILE_PATH="coverage/CSE$inheritance.coverage" NAME="inheritance Coverage Results" MODIFIED="1551911420526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
+    <SUITE FILE_PATH="coverage/CSE$Angel_Luciano___Adventure_Game.coverage" NAME="Angel Luciano - Adventure Game Coverage Results" MODIFIED="1555104081992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
     <SUITE FILE_PATH="coverage/CSE$Angel_Luciano___Object.coverage" NAME="Angel Luciano - Object Coverage Results" MODIFIED="1550614512958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
     <SUITE FILE_PATH="coverage/CSE$Object_Notes.coverage" NAME="Object Notes Coverage Results" MODIFIED="1551304631679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
     <SUITE FILE_PATH="coverage/CSE$Semester_2_Notes.coverage" NAME="Semester 2 Notes Coverage Results" MODIFIED="1547591248118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
@@ -58,29 +59,31 @@
           <entry key="project.open.time.39" value="2" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.41" value="1" />
-          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.42" value="2" />
           <entry key="project.open.time.44" value="2" />
-          <entry key="project.open.time.45" value="1" />
-          <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.45" value="2" />
+          <entry key="project.open.time.46" value="2" />
           <entry key="project.open.time.50" value="2" />
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.54" value="2" />
           <entry key="project.open.time.58" value="1" />
+          <entry key="project.open.time.71" value="1" />
           <entry key="project.open.time.73" value="1" />
+          <entry key="project.open.time.76" value="1" />
           <entry key="project.open.time.77" value="1" />
           <entry key="project.open.time.81" value="1" />
           <entry key="project.open.time.83" value="1" />
-          <entry key="project.opened" value="61" />
+          <entry key="project.opened" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="13876" />
+          <entry key="py" value="15307" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="13876" />
+          <entry key="Python" value="15307" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -101,27 +104,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/notes/Object Notes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <marker date="1550268717817" expanded="true" signature="21:26" ph="..." />
-                <marker date="1550268717817" expanded="true" signature="98:107" ph="..." />
-                <marker date="1550268717817" expanded="true" signature="866:875" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notes/Angel Luciano - Items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1802">
-              <caret line="106" column="17" selection-end-line="106" selection-end-column="17" />
+            <state relative-caret-position="1139">
+              <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
               <folding>
-                <marker date="1552686333305" expanded="true" signature="332:445" ph="..." />
-                <marker date="1552686333305" expanded="true" signature="749:754" ph="..." />
+                <marker date="1554845076854" expanded="true" signature="336:364" ph="..." />
+                <marker date="1554845076854" expanded="true" signature="383:560" ph="..." />
+                <marker date="1554845076854" expanded="true" signature="578:583" ph="..." />
+                <marker date="1554845076854" expanded="true" signature="861:866" ph="..." />
+                <marker date="1554845076854" expanded="true" signature="1768:1849" ph="..." />
               </folding>
             </state>
           </provider>
@@ -130,8 +122,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notes/World map oop.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1309">
-              <caret line="77" selection-start-line="77" selection-end-line="77" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="7" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/notes/Angel Luciano - Dictionary World Map.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2125">
+              <caret line="125" column="20" selection-start-line="125" selection-start-column="20" selection-end-line="125" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -139,8 +140,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/notes/Angel Luciano - Adventure Game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+            <state relative-caret-position="177">
+              <caret line="155" selection-start-line="155" selection-end-line="155" />
             </state>
           </provider>
         </entry>
@@ -160,15 +161,6 @@
                 <marker date="1551995912980" expanded="true" signature="649:654" ph="..." />
                 <marker date="1551995912980" expanded="true" signature="888:893" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/notes/Angel Luciano - Dictionary World Map.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2125">
-              <caret line="125" column="11" selection-start-line="125" selection-start-column="11" selection-end-line="125" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -216,10 +208,10 @@
         <option value="$PROJECT_DIR$/notes/Angel Luciano - Object.py" />
         <option value="$PROJECT_DIR$/notes/inheritence.py" />
         <option value="$PROJECT_DIR$/notes/inheritance.py" />
-        <option value="$PROJECT_DIR$/notes/Angel Luciano - Dictionary World Map.py" />
         <option value="$PROJECT_DIR$/notes/Object Notes.py" />
-        <option value="$PROJECT_DIR$/notes/Angel Luciano - Items.py" />
         <option value="$PROJECT_DIR$/notes/World map oop.py" />
+        <option value="$PROJECT_DIR$/notes/Angel Luciano - Items.py" />
+        <option value="$PROJECT_DIR$/notes/Angel Luciano - Dictionary World Map.py" />
         <option value="$PROJECT_DIR$/notes/Angel Luciano - Adventure Game.py" />
       </list>
     </option>
@@ -260,7 +252,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Angel Luciano - Items">
+  <component name="RunManager" selected="Python.Angel Luciano - Adventure Game">
+    <configuration name="Angel Luciano - Adventure Game" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CSE" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/notes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/notes/Angel Luciano - Adventure Game.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Angel Luciano - Dictionary World Map" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CSE" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -297,28 +311,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/notes/Angel Luciano - Items.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Object Notes" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CSE" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/notes" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/notes/Object Notes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -373,18 +365,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.Angel Luciano - Dictionary World Map" />
-      <item itemvalue="Python.Object Notes" />
       <item itemvalue="Python.World map oop" />
       <item itemvalue="Python.inheritance" />
       <item itemvalue="Python.Angel Luciano - Items" />
+      <item itemvalue="Python.Angel Luciano - Adventure Game" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Angel Luciano - Adventure Game" />
+        <item itemvalue="Python.Angel Luciano - Dictionary World Map" />
         <item itemvalue="Python.Angel Luciano - Items" />
         <item itemvalue="Python.inheritance" />
         <item itemvalue="Python.World map oop" />
-        <item itemvalue="Python.Object Notes" />
-        <item itemvalue="Python.Angel Luciano - Dictionary World Map" />
       </list>
     </recent_temporary>
   </component>
@@ -419,7 +411,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.51311475" side_tool="true" weight="0.42284417" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.26065573" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.34918034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -433,8 +425,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.32980332" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48688525" visible="true" weight="0.40922844" />
@@ -512,29 +504,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <marker date="1550268717817" expanded="true" signature="21:26" ph="..." />
-            <marker date="1550268717817" expanded="true" signature="98:107" ph="..." />
-            <marker date="1550268717817" expanded="true" signature="866:875" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/notes/Angel Luciano - Items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1802">
-          <caret line="106" column="17" selection-end-line="106" selection-end-column="17" />
+        <state relative-caret-position="1139">
+          <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
           <folding>
-            <marker date="1552686333305" expanded="true" signature="332:445" ph="..." />
-            <marker date="1552686333305" expanded="true" signature="749:754" ph="..." />
+            <marker date="1554845076854" expanded="true" signature="336:364" ph="..." />
+            <marker date="1554845076854" expanded="true" signature="383:560" ph="..." />
+            <marker date="1554845076854" expanded="true" signature="578:583" ph="..." />
+            <marker date="1554845076854" expanded="true" signature="861:866" ph="..." />
+            <marker date="1554845076854" expanded="true" signature="1768:1849" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/notes/World map oop.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes/Angel Luciano - Dictionary World Map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="125" column="20" selection-start-line="125" selection-start-column="20" selection-end-line="125" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -550,13 +547,6 @@
             <marker date="1551995912980" expanded="true" signature="649:654" ph="..." />
             <marker date="1551995912980" expanded="true" signature="888:893" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notes/Angel Luciano - Dictionary World Map.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2125">
-          <caret line="125" column="11" selection-start-line="125" selection-start-column="11" selection-end-line="125" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -576,8 +566,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/notes/Angel Luciano - Adventure Game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+        <state relative-caret-position="177">
+          <caret line="155" selection-start-line="155" selection-end-line="155" />
         </state>
       </provider>
     </entry>

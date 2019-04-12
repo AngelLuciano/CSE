@@ -13,11 +13,18 @@ class Armor(Item):
         super(Armor, self).__init__(name)
         self.armor_amt = armor_amt
 
+class Chestplate(Armor):
+    def __init__(self):
+
+
 
 class Weapon(Item):
     def __init__(self, name, damage):
         super(Weapon, self).__init__(name)
         self.damage = damage
+
+class Sword(Weapon):
+    def __init_subclass__(cls, **kwargs):
 
 
 class Key(object):
@@ -29,9 +36,6 @@ class Key(object):
     def open_door(self):
         if self.door:
             if
-
-
-
 
 class Car(Vehicle):
     def __init__(self, name):
@@ -68,9 +72,34 @@ class Wing_suit(Item):
 class Wraith(Vehicle):
     def __init_(self):
         super(Wraith, self).__init__(Vehicle)
-        if gas < 1
+        if gas < 1:
 
-class
+class Phone(Item)
+    def __init__(self):
+
+class Crossbow(Weapon):
+    def __init__(self):
+
+class Buggati(Vehicle):
+    def __init__(self):
+
+class Boat(Vehicle)
+    def __init__(self):
+
+class Bat(Weapon):
+    def __init__(self):
+
+class Book(Item):
+    def __init__(self):
+
+class Helmet(Armor):
+    def __init__(self):
+
+class Skateboard(Vehicle)
+    def __init__(self):
+
+
+
 
 
 class Character(object):

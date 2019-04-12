@@ -1,3 +1,4 @@
+
 class Item(object):
     def __init__(self, name):
         self.name = name
@@ -27,8 +28,7 @@ class Key(object):
         self.key = 1
 
     def open_door(self):
-        if self.door:
-            if
+        R19A.down = 'teleporter'
 
 
 class Car(Vehicle):
@@ -39,10 +39,6 @@ class Car(Vehicle):
 class Walkietalkie(Item):
     def __init_(self, name):
         self.name = name
-        if  name = 1:
-            
-
-
 
 
 class Jetpack(Item):
@@ -54,23 +50,11 @@ class Jetpack(Item):
 
     def flying(self):
         if self.fly:
-            if self.flying < 10 :
+            if self.flying < 10:
                 print("You need one more part for your wings")
 
             else:
                 print("Your are now in the air")
-
-
-class wingsuit(Item):
-    def __init_(self, name):
-        self.name = name
-
-    def gliding(self):
-        if self.glide:
-            if self.gliding < 11 :
-                 if gliding is  -= 4
-
-
 
 
 class Wraith(Vehicle):
@@ -84,67 +68,63 @@ class Wraith(Vehicle):
             print("We need to get a oil check")
 
 
-
-
 class Character(object):
-    def __init_(self, name, health, weapon, armor):
+    def __init__(self, name, health, weapon, armor, armor_type):
         self.name = name
         self.health = health
         self.weapon = weapon
         self.armor = armor
-
-    def pick_up(self, grab ):
-        if grab > 1 :
-            grab
-
-        
+        self.armor_type = armor_type
 
     def take_damage(self, damage):
-        self.health -= damage - self.armor.armor_amt
         if damage < self.armor.armor_amt:
             print("No Damage is done because of your armor!")
         else:
             self.health -= damage - self.armor.armor_amt
-            print(self.fallen) % self.name)
-        print("%s has %d damage" % (self.name, self.health))
+            if self.health < 0:
+                self.health = 0
+                print("% has fallen" % self.name)
+            print("%s has %d damage" % (self.name, self.health))
 
     def attack(self, target):
-        print("%s attacks for %d damage" % (self.name, target.name, self.weapon.damage))
+        print("%s attacks %s for %d damage" % (self.name, target.name, self.weapon.damage))
         target.take_damage(self.weapon.damage)
 
 
-Sword = Weapon("Sword", 10)
+sword = Weapon("Sword", 10)
 canoe = Weapon("Canoe", 84)
-wiebe_armor = Armor("Armor of the gods", 100000000000)
+weibe_armor = Armor("Armor of the gods", 100000000000)
 
-orc = Character ("orc"), 10, Sword, Armor("Dark Wing")
-wiebe = Character ("wiebe"), 200, Sword, Armor("Armor of the gods")
+orc = Character("orc", 100, Weapon(sword, 100), Armor, "Generic Armor")
+weibe = Character("weibe",  100000, Weapon(sword, 100000), Armor, "Armor of the gods")
 
-orc.attack(Wiebe)
-wiebe.attack(orc)
+
+def pick_up(self, grab):
+    self.gr
+    if grab > 1:
+        grab
+
 
 class Room(object):
-    def __init__(self, name, north=None, south=None, east=None, west=None):
+    def __init__(self, name, north=None, south=None, east=None, west=None, down=None, up=None):
         self.name = name
         self.north = north
         self.south = south
         self.east = east
         self.west = west
+        self.down = down
+        self.up = up
         self.description = "ENTER DESCRIPTION HERE"
 
-
-R19A = Room("Mr. Weibe's Room")
-parking_lot = Room("The Parking Lot", None, R19A)
-
-R19A.north = parking_lot
-
 # option 2
+
+
 R19A = Room("Mr. Weibe's Room", 'parking_lot')
 parking_lot = Room("The Parking Lot", None, 'R19A', 'Market')
-Market = Room("Zack's Market", 'parking_lot')
-Teleporter = Room("Teleporter", 'Market')
-Store = Room("Family dollar"'parking_lot')
-Pool = Room("")
+Market = Room("Zack's Market", None, None, None, 'Parking_lot')
+Teleporter = Room("Teleporter", None, None, None, None, None, 'R19A')
+Store = Room("Family dollar", 'parking_lot')
+House = Room("House", 'House1', None, 'Store')
 
 
 class Player(object):
@@ -172,7 +152,12 @@ class Player(object):
 
 player = Player(R19A)
 directions = ('north', 'south', 'east', 'west', 'up', 'down')
+short_directions = ['n', 's', 'e', 'w', 'u', 'd']
+pick_up = ["Pick up"]
 playing = True
+
+command = input(">_")
+
 
 while playing:
     print(player.current_location.name)
@@ -188,4 +173,6 @@ while playing:
             print("I can't go that way.")
     else:
         print("Command not recognized")
-
+    if command in short_directions:
+        pos = short_directions.index(command)
+        command = directions[pos]
