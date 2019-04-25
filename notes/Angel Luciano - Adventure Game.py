@@ -25,7 +25,6 @@ class Key(object):
     def __init__(self, name):
         self.name = name
         self.door = True
-        self.key = 1
 
     def open_door(self):
         R19A.down = 'teleporter'
@@ -100,7 +99,7 @@ weibe = Character("weibe",  100000, Weapon(sword, 100000), Armor, "Armor of the 
 
 
 def pick_up(self, grab):
-    self.gr
+    self.grab
     if grab > 1:
         grab
 
@@ -119,12 +118,13 @@ class Room(object):
 # option 2
 
 
-R19A = Room("Mr. Weibe's Room", 'parking_lot')
-parking_lot = Room("The Parking Lot", None, 'R19A', 'Market')
-Market = Room("Zack's Market", None, None, None, 'Parking_lot')
+R19A = Room("Mr. Weibe's Room", 'parking_lot', None, None, None, 'Teleporter', None,)
+parking_lot = Room("The Parking Lot", None, 'R19A', 'Market', 'Store', None, None)
+Market = Room("Zack's Market", None, None, None, 'parking_lot', None, None)
 Teleporter = Room("Teleporter", None, None, None, None, None, 'R19A')
-Store = Room("Family dollar", 'parking_lot')
+Store = Room("Family dollar", 'House', 'Parking_lot', None)
 House = Room("House", 'House1', None, 'Store')
+House1 = Room("Living room", None, 'House', None)
 
 
 class Player(object):
