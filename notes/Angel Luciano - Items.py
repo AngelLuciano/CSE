@@ -78,7 +78,7 @@ class Phone(Item)
     def __init__(self):
 
 class Crossbow(Weapon):
-    def __init__(self):
+    def __init__(self):c  ,,vllvcm;lv;ldmvmcl;vmlfdml;lfdmld;mf;ldsml;cdml;dfml;smfdl;dmf;lfm;ldm;lfdm;lfmv,mv,.vmdfldfl;kds;lskl;fl;kfl;kdsfm,l;.lKKKjfgjkffdlkjlkjkjfkjksfdjkdnvcdsjierjfikdjfjseifjdkla;we
 
 class Buggati(Vehicle):
     def __init__(self):

@@ -6,7 +6,7 @@ parking_lot = Room("The Parking Lot", None, 'R19A', 'Market')
 Market = Room("Zack's Market", 'parking_lot')
 Teleporter = Room("Teleporter", 'Market')
 Store = Room("Family dollar"'parking_lot')
- = Room("")
+
 
 
 class Player(object):
