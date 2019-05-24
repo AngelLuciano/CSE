@@ -1,4 +1,3 @@
-
 class Item(object):
     def __init__(self, name):
         self.name = name
@@ -125,6 +124,14 @@ Teleporter = Room("Teleporter", None, None, None, None, None, 'R19A')
 Store = Room("Family dollar", 'House', 'Parking_lot', None)
 House = Room("House", 'House1', None, 'Store')
 House1 = Room("Living room", None, 'House', None)
+Backyard = Room("Backyard", None, 'House1', 'Public_library', 'Tennis_courts', None)
+Tennis_courts = Room("Tennis courts", None, None, 'Backyard')
+Public_library = Room("Public Library", 'Park', 'Apartments', None, 'Backyard')
+Park = Room("Park", None, 'Public_library' 'Public_pool', None)
+Public_pool = Room("Public pool", None, 'Video_game_store', None, 'Park', None)
+Video_game_store = Room("Video Game Store", 'Public_pool', 'Zoo', 'Escape_room', None)
+Escape_room = Room("Escape room", None, None, None, 'Escape_room', None)
+Zoo = Room("Fresno chaffee zoo", 'Video_game_store', None)
 
 
 class Player(object):
@@ -176,3 +183,5 @@ while playing:
     if command in short_directions:
         pos = short_directions.index(command)
         command = directions[pos]
+
+    elif "take" in command.lower():
